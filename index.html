@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-slider</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+    <ul class="slides">
+        <li class="slide active"></li>
+        <li class="slide"></li>
+        <li class="slide"></li>
+        <li class="slide"></li>
+        <li class="slide"></li>
+    </ul>
+
+    <div class="indicators">
+        <button class="indicator active" data-slide-to="0"></button>
+        <button class="indicator" data-slide-to="1"></button>
+        <button class="indicator" data-slide-to="2"></button>
+        <button class="indicator" data-slide-to="3"></button>
+        <button class="indicator" data-slide-to="4"></button>
+    </div>
+
+    <div class="controls">
+        <button id="pause-play-btn" class="control control__pause-play-btn">
+            <i class="far fa-pause-circle"></i>
+        </button>
+        <button id="prev-btn" class="control control__prev-btn">
+            <i class="far fa-arrow-alt-circle-left"></i>
+        </button>
+        <button id="next-btn" class="control control__next-btn">
+            <i class="far fa-arrow-alt-circle-right"></i>
+        </button>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
